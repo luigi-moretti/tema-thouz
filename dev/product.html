@@ -111,14 +111,59 @@
       </div>
     </div>
   </header> <!--Fim cabeçalho-->
-  <div class="container-fluid">
-    <!--banner-->
-    <img src="img/banner_principal02.jpg" class="img-fluid" alt="Responsive image">
-  </div>
-  <div class="container-fluid d-none d-md-block my-3">
-    <img src="img/banner02.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
-  </div>
-  <div class="container-fluid my-3">
+
+  <section class="container"><!--Início produto-->
+    <div class="d-flex">
+      <div class="ml-auto">
+        <a class="link-unstyled" href="index.html">Página principal</a> | 
+        <a class="link-unstyled" href="search.html">Roupas</a> | 
+        <a class="link-unstyled" href="search.html">Calças</a> | 
+        <a class="link-unstyled" href="product.html">Nome do produto</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <img  src="img/categoria_calça05.jpg" alt="" srcset="" class="mx-auto d-block" style="width: 80%;">
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <h4>Nome do produto</h4>
+        <div class="container bg-amarelo p-md-4 p-sm-2 my-3">
+          <p>Selecione uma cor:</p>
+          <img src="img/cores_produtos.jpg" alt="" srcset="">
+          <p>Selecione um tamanho:</p>
+          <img src="img/tamanho.jpg" alt="" srcset="">
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>R$ 150,00</p>
+            <p><small>Em até 4x de R$ 37,50</small></p>
+          </div>
+          <div>
+            <p>Quantidade</p>
+            <input type="number" placeholder="0">
+          </div>
+        </div>
+        <button class="btn btn-outline-secondary" type="button" id="rastrear"><i
+          class="fas fa-shopping-bag"></i> Comprar</button>
+        <div>
+          <p>Calcular frete</p>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Insira seu CEP aqui" aria-label=""
+               aria-describedby="frete">
+             <button class="btn btn-outline-secondary mx-2" type="button" id="assinar">Calcular</button>
+           </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-3">
+      <h4>Descrição</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum a mi at vulputate. Suspendisse urna massa, tempus sit amet dolor eget, efficitur accumsan felis. Aenean sagittis nisl sed enim tempor posuere. Etiam ut mollis augue. Aliquam fermentum urna eget tristique dapibus. Nulla dui libero, fermentum eget orci a, consectetur condimentum ante. Nunc quis aliquam turpis. Curabitur venenatis justo et diam sollicitudin blandit. In ut quam vitae velit molestie tincidunt.</p>
+      <h4>Tabela de medidas</h4>
+      <img src="img/manequim.jpg" alt="" srcset="" class="mx-auto d-block">
+    </div>
+  </section><!--Fim produto-->
+
+  <div class="container-fluid my-3"><!--Produtos mais vendidos-->
     <h3 class="text-center"><span><img src="img/star_icon.jpg" style="width: 30px;"> Os mais vendidos! <span><img
             src="img/star_icon.jpg" style="width: 30px;"></span></h3>
   </div>
@@ -178,7 +223,7 @@
             class="fas fa-shopping-bag"></i> Quero este item</button>
       </div>
     </div>
-  </div>
+  </div><!--Fim produtos mais vendidos-->
 
   <div class="container-fluid my-3">
     <h3 class="text-center"><i class="fab fa-instagram"></i> Instagram</h3>
