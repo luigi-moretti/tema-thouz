@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HOME - THOUZ STORE</title>
+  <title>Políticas - THOUZ STORE</title>
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="img/favicon.ico"/>
 
   <!--estilo-->
   <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
@@ -198,35 +201,6 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
 
-  <script>
-    /*
-  Carousel
-*/
-    $('#carousel-example').on('slide.bs.carousel', function (e) {
-      /*
-          CC 2.0 License Iatek LLC 2018 - Attribution required
-      */
-      var $e = $(e.relatedTarget);
-      var idx = $e.index();
-      var itemsPerSlide = 5;
-      var totalItems = $('.carousel-item').length;
-      console.log(totalItems);
-      console.log(idx);
-
-      if (idx >= totalItems - (itemsPerSlide - 1)) {
-        var it = itemsPerSlide - (totalItems - idx);
-        for (var i = 0; i < it; i++) {
-          // append slides to end
-          if (e.direction == "left") {
-            $('.carousel-item').eq(i).appendTo('.carousel-inner');
-          }
-          else {
-            $('.carousel-item').eq(0).appendTo('.carousel-inner');
-          }
-        }
-      }
-    });
-  </script>
 </body>
 
 </html>
