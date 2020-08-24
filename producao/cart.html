@@ -20,103 +20,96 @@
 </head>
 
 <body>
-  <header class="container-fluid">
-    <!--Início cabeçalho-->
-    <div class="bg-cinza">
-      <p class="text-center"><strong>Ganhe frete grátis nas compras acima de R$249,00!</strong></p>
-    </div>
-    <div class="d-flex flex-wrap">
-      <div class="flex-xl-grow-0 flex-fill flex-lg-fill">
-        <a href="index.html"><img src="img/logotipo_circle.png" class="mx-auto d-block" alt="thouz-logotipo"
-            style="width: 150px;"></a>
+  <header class="container-fluid"> <!--Início cabeçalho-->
+    <section class="bg-cinza"><!--Início Frete Grátis -->
+      <p class="text-center"><strong>Ganhe frete grátis nas compras acima de R$499,90! - Fazemos entregas em Piracicaba e Região* em até 24 horas após aprovação do pagamento</strong></p>
+    </section><!--Fim Frete Grátis-->
+    <section class="row my-3"><!--Início Logotipo-->
+      <div class="col-md-4 col-sm-12 d-flex justify-content-center align-items-center my-2">
+        <span id="whatsappHeader"><strong>Whatsapp: (11) 96492-0108</strong></span>
       </div>
-      <div class="flex-grow-1">
-        <div class="row">
-          <div class="col-sm-12 col-md-8">
-            <p class="text-center">Whatsapp: (11) 96492-0108</p>
+      <div class="col-md-4 col-sm-12 my-2">
+        <a href="index.html"><img src="img/logotipo_circle.png" class="col mx-auto d-block" alt="thouz-logotipo" style="width: 150px;"></a>
+      </div>
+      <div class="col-md-4 col-sm-12 d-flex justify-content-center align-items-center my-2">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="fa fa-search btn btn-outline-secondary" type="button" id="rastrear"></button>
           </div>
-          <div class="col">
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <button class="fa fa-search btn btn-outline-secondary" type="button" id="rastrear"></button>
+          <input type="text" class="form-control" placeholder="Rastreie seu pedido" aria-label=""
+          aria-describedby="rastrear">
+        </div>
+      </div>
+    </section><!--Fim Logotipo-->
+    
+    <section><!--Início Menu-->
+      <nav class="navbar navbar-expand-lg navbar-amarelo bg-rosa">
+        <a class="d-sm-block d-md-none navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex align-items-lg-center justify-content-md-start col-12">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">Roupas</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Blusas e Tops</a>
+                <a class="dropdown-item" href="search.html">Calças</a>
+                <a class="dropdown-item" href="#">Conjuntos</a>
+                <a class="dropdown-item" href="#">Jaquetas</a>
+                <a class="dropdown-item" href="#">Jumpsuit</a>
+                <a class="dropdown-item" href="#">Shorts e Saias</a>
+                <a class="dropdown-item" href="#">Tricô</a>
+                <a class="dropdown-item" href="#">Vestidos</a>
               </div>
-              <input type="text" class="form-control" placeholder="Rastreie seu pedido" aria-label=""
-                aria-describedby="rastrear">
-            </div>
-
-          </div>
-        </div>
-        <div>
-          <nav class="navbar navbar-expand-lg navbar-amarelo bg-amarelo">
-            <a class="navbar-brand" href="#">Menu</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav d-flex align-items-lg-center justify-content-md-start col-12">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                    aria-expanded="false">Roupas</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Blusas e Tops</a>
-                    <a class="dropdown-item" href="search.html">Calças</a>
-                    <a class="dropdown-item" href="#">Conjuntos</a>
-                    <a class="dropdown-item" href="#">Jaquetas</a>
-                    <a class="dropdown-item" href="#">Jumpsuit</a>
-                    <a class="dropdown-item" href="#">Shorts e Saias</a>
-                    <a class="dropdown-item" href="#">Tricô</a>
-                    <a class="dropdown-item" href="#">Vestidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acessórios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Instagram</a>
+            </li>
+            <li class="flex-grow-1">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="fa fa-search btn btn-outline-secondary" type="button" id="pesquisar"></button>
+                </div>
+                <input type="text" class="form-control" placeholder="Pesquise um produto" aria-label=""
+                  aria-describedby="pesquisar">
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <div class="row align-items-center">
+                  <div class="col-2 mr-3"><i class="my-auto fas fa-user fa-2x"></i></div>
+                  <div class="col">
+                    <div><span>Olá, seja bem-vindo</span></div>
+                    <div><span>Acessar sua conta</span></div>
                   </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Acessórios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Sale</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Instagram</a>
-                </li>
-                <li class="nav-item flex-grow-1">
-                  <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <button class="fa fa-search btn btn-outline-secondary" type="button" id="pesquisar"></button>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Pesquise um produto" aria-label=""
-                      aria-describedby="pesquisar">
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="cart.html" class="nav-link">
+                <div class="row align-items-center">
+                  <div class="col-2 mr-3"><i class="my-auto fas fa-shopping-cart fa-2x"></i></div>
+                  <div class="col">
+                    <div><span>Meu carrinho</span></div>
+                    <div><span>R$0,00</span></div>
                   </div>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">
-                    <div class="row align-items-center">
-                      <div class="col-2 mr-3"><i class="my-auto fas fa-user fa-2x"></i></div>
-                      <div class="col">
-                        <div><span>Olá, seja bem-vindo</span></div>
-                        <div><span>Acessar sua conta</span></div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="cart.html" class="nav-link">
-                    <div class="row align-items-center">
-                      <div class="col-2 mr-3"><i class="my-auto fas fa-shopping-cart fa-2x"></i></div>
-                      <div class="col">
-                        <div><span>Meu carrinho</span></div>
-                        <div><span>R$0,00</span></div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+                </div>
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>
-  </header>
-  <!--Fim cabeçalho-->
+      </nav>
+    </section><!--Fim Menu-->
+  </header> <!--Fim cabeçalho-->
 
   <section class="container">
     <div class="my-3 d-flex align-items-center flex-wrap">

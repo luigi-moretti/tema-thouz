@@ -1,10 +1,27 @@
 body{
-  color: #757575;
+  color: #616161;
+}
+
+#whatsappHeader{
+  font-size: 1.5em;
+}
+
+.btn-outline-secondary:hover {
+  color: #616161;
+  background-color: #ffd9d8;
+  border-color: #616161;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-secondary.dropdown-toggle {
+  color: #616161;
+  background-color: #ffd9d8;
+  border-color: #616161;
 }
 
 .bg-cinza{
-    background-color: #757575;
-    color: #fff;
+    background-color: #616161;
+    color: #fffde6;
 }
 
 .bg-amarelo{
@@ -12,40 +29,52 @@ body{
     /**color: #757575;**/
 }
 
+.bg-rosa{
+  background-color: #ffd9d8;
+}
+
+.nav-bar{
+  font-size: 1.3em;
+}
+
+.nav-item:hover{
+  background-color: #fffde6;
+}
+
 .navbar-amarelo{
-    color: #757575; 
+    color: #616161; 
 }
 
 .navbar-amarelo .navbar-brand {
-    color: #757575;
+    color: #616161;
   }
   
   .navbar-amarelo .navbar-brand:hover, .navbar-amarelo .navbar-brand:focus {
-    color: #757575;
+    color: #616161;
   }
   
   .navbar-amarelo .navbar-nav .nav-link {
-    color: #757575;
+    color: #616161;
   }
   
   .navbar-amarelo .navbar-nav .nav-link:hover, .navbar-amarelo .navbar-nav .nav-link:focus {
-    color: #757575;
+    color: #616161;
   }
   
   .navbar-amarelo .navbar-nav .nav-link.disabled {
-    color: #757575;
+    color: #616161;
   }
   
   .navbar-amarelo .navbar-nav .show > .nav-link,
   .navbar-amarelo .navbar-nav .active > .nav-link,
   .navbar-amarelo .navbar-nav .nav-link.show,
   .navbar-amarelo .navbar-nav .nav-link.active {
-    color: #757575;
+    color: #616161;
   }
   
   .navbar-amarelo .navbar-toggler {
-    color: #757575;
-    border-color: #757575;
+    color: #616161;
+    border-color: #616161;
   }
   
   .navbar-amarelo .navbar-toggler-icon {
@@ -53,15 +82,15 @@ body{
   }
   
   .navbar-amarelo .navbar-text {
-    color: #757575;
+    color: #616161;
   }
   
   .navbar-amarelo .navbar-text a {
-    color: #757575;
+    color: #616161;
   }
   
   .navbar-amarelo .navbar-text a:hover, .navbar-amarelo .navbar-text a:focus {
-    color: #757575;
+    color: #616161;
   }
 
   .link-unstyled {
